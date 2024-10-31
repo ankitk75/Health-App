@@ -2,6 +2,9 @@
 
 This repository contains screenshots of the Health App, which is designed to promote health and wellness through various features such as dietary guidelines, step tracking, BMI calculation, and more.
 
+## App Guide Video
+You can watch the app guide video [here](https://github.com/ankitk75/Health-App/raw/master/Screenshots/appGuide.mp4).
+
 ## Screenshots
 
 Below are the screenshots of different screens in the Health App, along with descriptions for each:

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Toolbar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_back"
+                android:contentDescription="Back"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dietary Guidelines"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/textPrimary"/>
+
+            <Space
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+
+        <!-- Healthy Eating Pattern Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Healthy Eating Pattern"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A healthy eating pattern includes a variety of vegetables, whole fruits, and fat-free or low-fat dairy products. It also includes lean meats, poultry, fish, beans, eggs, and nuts."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Importance of Diet Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Importance of Diet"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consuming a healthy diet throughout life can help prevent chronic diseases such as obesity, heart disease, high blood pressure, and type 2 diabetes."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Balanced Diet Components Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balanced Diet Components"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Component Grid -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Protein"
+                android:background="@drawable/rounded_background"
+                android:padding="16dp"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Fruits"
+                android:background="@drawable/rounded_background"
+                android:padding="16dp"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Vegetables"
+                android:background="@drawable/rounded_background"
+                android:padding="16dp"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Whole Grains"
+                android:background="@drawable/rounded_background"
+                android:padding="16dp"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Dairy"
+                android:background="@drawable/rounded_background"
+                android:padding="16dp"
+                android:layout_margin="4dp"/>
+        </GridLayout>
+
+        <!-- Detailed Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proteins: Important for muscle repair, immune function, and enzyme production. Sources include lean meats, fish, eggs, beans, and tofu."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carbohydrates: The body's primary energy source. Opt for complex carbs like whole grains, fruits, and vegetables, which provide longer-lasting energy."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fats: Essential for brain function and energy. Emphasize healthy fats like those from nuts, seeds, olive oil, and avocados while limiting saturated and trans fats."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vitamins and Minerals: Vital for cellular function, immunity, and bone health. Include a variety of colorful fruits and vegetables to meet these needs."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water: Essential for hydration, digestion, and nutrient transport. Encourage users to drink at least 8 glasses of water daily, adjusting for activity levels and climate."
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView> 

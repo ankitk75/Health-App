@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color -->
+    <color name="colorPrimary">#00A67E</color>
+    <color name="colorPrimaryDark">#008F6B</color>
+    <color name="colorAccent">#00A67E</color>
+    
+    <!-- Background colors -->
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="inputBackground">#F5F0EB</color>
+    
+    <!-- Text colors -->
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#757575</color>
+    <color name="linkColor">#00A67E</color>
+</resources>
